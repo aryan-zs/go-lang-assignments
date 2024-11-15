@@ -20,7 +20,7 @@ func sq_perimeter(n float64) float64 {
 
 const pi = 3.1415926
 
-func main() {
+func first() {
 	var a int
 	fmt.Println("Enter the number")
 	fmt.Scanf("%d", &a)
