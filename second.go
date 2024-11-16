@@ -127,7 +127,7 @@ func isEven(a int){
 
 
 
-func swapper(){
+func cal(){
 	var num1 float64
 	var num2 float64
 	num1=20
@@ -159,6 +159,13 @@ func sumNatural(n int )   {
 	
 }
 	
+func swap_pointers(a,b *int)  {
+ 
+	temp :=*a
+	*a=*b
+	*b=temp
+	
+}
 
 func swap_number_by_using_pointer()  {
 
@@ -228,7 +235,7 @@ func second()  {
 	what_to_wear()
 	vehicle_typ()
 	isEven(87)
-	swapper()
+	cal()
 	sumNatural(50)
 	swap_number_by_using_pointer()
 	account()
