@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	fmt.Printf("hello aryan \n")
-	first()
-
-	second()
+	//first()
+	//second()
+	third()
 }
