@@ -6,5 +6,7 @@ func main() {
 	fmt.Printf("hello aryan \n")
 	//first()
 	//second()
-	third()
+	// third()
+	fourth()
+
 }

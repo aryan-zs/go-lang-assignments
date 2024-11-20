@@ -1,20 +1,17 @@
 package main
 
-import (
-	"fmt"
-	
-)
+import "fmt"
 
-func reverse(s1 []int){
+func reverse(s1 []int) {
 	var temp int
-	len:=len(s1)
+	len := len(s1)
 
-	for i:=0;i< len/2;i++{
-		temp=s1[0+i]
-		s1[0+i]=s1[ len-1-i]
-		s1[len-1-i]=temp 
+	for i := 0; i < len/2; i++ {
+		temp = s1[0+i]
+		s1[0+i] = s1[len-1-i]
+		s1[len-1-i] = temp
 	}
-	
+
 }
 
 func find_occ(str string) map[string]int {
@@ -57,7 +54,7 @@ func third() {
 
 	s1 := []int{1, 2, 3, 4, 5}
 	reverse(s1)
-	fmt.Println("reverse slice is ",s1)
+	fmt.Println("reverse slice is ", s1)
 
 	str := "zopsmart interns"
 	mp := find_occ(str)
